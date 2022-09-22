@@ -1,0 +1,15 @@
+public class raiz {
+    private double resultado;
+    public void raizar(double numero){
+        double raiz = Math.sqrt(numero);
+        setResultado (raiz);
+    }
+
+    public double getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(double resultado) {
+        this.resultado = resultado;
+    }
+}
