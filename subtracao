@@ -1,0 +1,15 @@
+public class subtracao {
+    private static double resultado;
+    public void subtrair(double num1, double num2){
+        double subtracao = num1 - num2;
+        setResultado(subtracao);
+    }
+
+    public double getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(double resultado) {
+        subtracao.resultado = resultado;
+    }
+}
