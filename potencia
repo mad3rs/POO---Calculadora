@@ -1,0 +1,15 @@
+public class potencia {
+    private double resultado;
+    public void potenciar(double num1, double num2){
+        double potencia = Math.pow(num1, num2);
+        setResultado (potencia);
+    }
+
+    public double getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(double resultado) {
+        this.resultado = resultado;
+    }
+}
