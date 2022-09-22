@@ -1,0 +1,14 @@
+public class porcentagem {
+    private double resultado;
+    public void porcentar(double num1, double num2){
+        setResultado(num1 * num2 / 100);
+    }
+
+    public double getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(double resultado) {
+        this.resultado = resultado;
+    }
+}
