@@ -1,0 +1,14 @@
+public class divisao {
+    private double resultado;
+    public void dividir(double num1, double num2){
+        setResultado(num1 / num2);
+    }
+
+    public double getResultado() {
+        return resultado;
+    }
+
+    public void setResultado(double resultado) {
+        this.resultado = resultado;
+    }
+}
